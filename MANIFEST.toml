@@ -1,0 +1,20 @@
+uuid = "90505bdf-6676-4d54-98af-89e965606123"
+name = "Language Name"
+authors = ["Bob Swift"]
+description = "This plugin provides a new script function `$language_name()` to replace the three-character language code with the full name of the language."
+api = ['3.0']
+license = "GPL-2.0-or-later"
+license_url = "https://www.gnu.org/licenses/gpl-2.0.html"
+long_description = """
+The function is used as `$language_name(code)`, where `code` is the three-character language code.
+It would typically be used to expand the `%language%` and `%_releaselanguage%` tags.
+
+For example, `$language_name(%language%)` will return '**English**' if the language code is '**eng**',
+or '**Gwich´in**' if the language code is '**gwi**', or even '**Klingon / tlhIngan-Hol**' if the code
+is '**tlh**'. (Yes, Klingon is actually officially recognized in the ISO 639-3 list of languages.)
+
+If an unknown code is entered, the function will return '**unknown**'. If there is no code entered,
+'**missing**' will be returned.
+"""
+categories = ["scripting"]
+homepage = "https://picard-plugins-user-guides.readthedocs.io/en/latest/language_name/user_guide.html"
