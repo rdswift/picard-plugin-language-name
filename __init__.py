@@ -494,10 +494,10 @@ def enable(api: PluginApi):
     api.register_script_function(
         func_language_name,
         name='language_name',
+        signature=api.tr("help.language_name.signature", "$language_name(code)"),
         documentation=api.tr(
-            "help.language_name",
+            "help.language_name.documentation",
             (
-                "`$language_name(code)`\n\n"
                 "Returns the full name of a language for the ISO 639-3 three-character language "
                 "code provided. If an unknown code is entered, the function will return '**unknown**'. "
                 "If there is no code entered, '**missing**' will be returned."

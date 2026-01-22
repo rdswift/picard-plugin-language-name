@@ -1,4 +1,3 @@
-"help.language_name" = ""
 "language.aar" = "афар"
 "language.abk" = "абхазский"
 "language.ace" = "ачехский"
@@ -423,3 +422,5 @@
 "manifest.description" = ""
 "manifest.long_description" = ""
 "manifest.name" = ""
+"help.language_name.documentation" = ""
+"help.language_name.signature" = ""
