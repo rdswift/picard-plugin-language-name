@@ -18,3 +18,4 @@ If an unknown code is entered, the function will return '**unknown**'. If there 
 """
 categories = ["scripting"]
 homepage = "https://picard-plugins-user-guides.readthedocs.io/en/latest/language_name/user_guide.html"
+report_bugs_to = "https://github.com/rdswift/picard-plugin-language-name/issues"
