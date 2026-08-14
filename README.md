@@ -59,3 +59,7 @@ Supported translations of the language names from English are based on the trans
 ## Technical Notes
 
 This function uses a subset of the ISO 639-3 language codes as found on the [Wikipedia](https://en.wikipedia.org/wiki/List_of_ISO_639-3_codes) website.
+
+## Contributing
+
+Please see the [Contribution Guidelines for MusicBrainz Picard Plugins](https://github.com/metabrainz/picard-plugins-registry/blob/main/PLUGIN_CONTRIBUTING.md) on how to help with development of this plugin.
