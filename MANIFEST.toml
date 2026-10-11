@@ -22,9 +22,17 @@ report_bugs_to = "https://github.com/rdswift/picard-plugin-language-name/issues"
 
 [name_i18n]
 nl = "Naam van de taal"
+de = "Name der Sprache"
+fr = "Nom de la langue"
+zh_CN = "语言名称"
 
 [description_i18n]
 nl = "Deze plug-in biedt een nieuwe scriptfunctie, `$language_name()` waarmee je een taalcode van drie tekens kunt vervangen door de volledige naam van de taal."
+de = "Das Plugin stelle eine neue Skript-Funktion `$language_name()` bereit, um den dreistelligen Sprachcode durch den vollständigen Namen der Sprache zu ersetzen."
+fr = "Ce plugin fournit une nouvelle fonction de script `$language_name()` qui permet de remplacer le code de langue à trois caractères par le nom complet de la langue."
+zh_CN = "此插件提供了一个新的脚本函数 `$language_name()`，用于将三字符语言代码替换为语言的全名。"
 
 [long_description_i18n]
 nl = "De functie wordt gebruikt in de vorm `$language_name(code)`, waarin `code` de taalcode met drie tekens is. De functie is vooral handig om de tags `%language%` en `%_releaselanguage%` uit te breiden.\n\nAls de taal van de gebruikersinterface is ingesteld op Nederlands, retourneert de functie `$language_name(%language%)` bijvoorbeeld ‘Engels’, als de taalcode ‘**eng**’ is, of ‘**Gwich´in**’ als de taalcode ‘**gwi**’ is en zelfs ‘**Klingon / tlhIngan-Hol**’ als de code ‘**tlh**’ is. (Ja, Klingon staat officieel in de ISO 639-3-lijst met talen.)\n\nAls er een onbekende code wordt ingevoerd, retourneer de functie ‘**unknown**’. Als er geen code wordt ingevoerd, retourneert de functie ‘**missing**’."
+fr = "Cette fonction s'utilise sous la forme `$language_name(code)`, où `code` correspond au code de langue à trois caractères. Elle sert généralement à développer les balises `%language%` et `%_releaselanguage%`.\n\nPar exemple, `$language_name(%language%)` renverra « **English** » si le code de langue est « **eng** », ou « **Gwich´in** » si le code de langue est « **gwi** », ou encore « **Klingon / tlhIngan-Hol** » si le code est « **tlh** ». (Oui, le klingon est effectivement reconnu officiellement dans la liste des langues ISO 639-3.)\n\nSi un code inconnu est saisi, la fonction renverra « **unknown** ». Si aucun code n'est saisi, « **missing** » sera renvoyé."
+zh_CN = "该函数用作 `$language_name(code)`，其中 `code` 是三字符语言代码。它通常用于扩展 `%language%` 和 `%_releaselanguage%` 标签。\n\n例如，如果语言代码是 '**eng**'，`$language_name(%language%)` 将返回 '**English**'；如果语言代码是 '**gwi**'，将返回 '**Gwich´in**'；甚至如果代码是 '**tlh**'，将返回 '**Klingon / tlhIngan-Hol**'。（是的，克lingon 实际上在 ISO 639-3 语言列表中是官方承认的。）\n\n如果输入了未知代码，函数将返回 '**unknown**'。如果没有输入代码，将返回 '**missing**'。"
